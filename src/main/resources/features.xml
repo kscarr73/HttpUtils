@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+
+   <feature name="TibcoUtil" version="13.05.17">
+      <bundle start-level="40">wrap:mvn:com.tibco.jms/jms/6.3.0.5</bundle>
+      <bundle start-level="40">wrap:mvn:com.tibco.jms/tibjms/6.3.0.5</bundle>
+      <bundle start-level="40">wrap:mvn:com.tibco.jms/tibjmsadmin/6.3.0.5</bundle>
+      <bundle start-level="45">mvn:com.icg.utils/TibcoUtil/13.05.17</bundle>
+   </feature>
+
+</features>
